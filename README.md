@@ -1,2 +1,0 @@
-# skillissue
-Beadandó feladat
