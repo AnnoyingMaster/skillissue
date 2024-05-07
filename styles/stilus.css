@@ -1,17 +1,33 @@
 header {
-    border-radius: 10px;
-    background-color: yellow;
+    border-radius: 4px;
+    background-color: #101a3b;
     padding: 10px;
-    margin: 10px;
+    margin: 5px 75px 5px 75px;
+}
+#fejlec {
+    color: #ebebeb;
+}
+
+image {
+    vertical-align: center;
+}
+
+body{
+    background-color: #0a1024;
 }
 
 header img {
     float: left;
-    margin: 20px 10px 0px 10px;
+    margin: 10px 10px 0px 10px;
+}
+
+header label {
+    color: #ebebeb;
+    float: right;
 }
 
 div#wrapper {
-    margin: 10px;
+    margin: 20px 75px 5px 75px;
 }
 
 aside {
@@ -20,36 +36,38 @@ aside {
 }
 
 nav {
-    margin: 0px 10px 0px 0px;
+    margin: 5px 5px 15px 5px;
     top: 0px;
-    border-radius: 10px;
-    background-color: #FF6600;
+    border-radius: 4px;
+    background-color: #050a1c;
+    box-shadow: 5px 5px;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0px;
-    padding: 15px 0px;
+    padding: 15px 15px 15px 0px;
 }
 
 nav ul li {
-    padding: 0px 15px;;
+    padding: 15px 15px;
+    display: inline;
 }
 
 nav ul li.active {
-    border-right: 5px solid blue;
+    /*border-right: 5px solid blue;*/
+    background: #1b2b5e;
 }
 
 nav ul a {
     text-decoration: none;
-    color: blue;
+    color: #ebebeb;
 }
 
 div#content {
-    display: table-cell;
-    width: 100%;
-    border-radius: 10px;
-    background-color: #99FFCC;
+    color: #ebebeb;
+    border-radius: 4px;
+    background-color: #203375;
     padding: 15px;
 }
 
@@ -59,12 +77,4 @@ div#content img{
     height: auto;
     margin: 0 0 15px 15px;
     padding: 3px;
-    border: 3px solid blue;
-}
-
-footer {
-    border-radius: 10px;
-    margin: 10px;
-    padding: 5px 20px;
-    background-color: #CC99FF;
 }

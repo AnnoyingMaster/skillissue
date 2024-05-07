@@ -10,34 +10,30 @@
 </head>
 <body>
 	<header>
-		<img src="./images/<?=$fejlec['kepforras']?>" alt="<?=$fejlec['kepalt']?>">
-		<h1><?= $fejlec['cim'] ?></h1>
-		<?php if (isset($fejlec['motto'])) { ?><h2><?= $fejlec['motto'] ?></h2><?php } ?>
-		<?php if(isset($_SESSION['login'])) { ?>Bejlentkezve: <strong><?= $_SESSION['csn']." ".$_SESSION['un']." (".$_SESSION['login'].")" ?></strong><?php } ?>
+        <img src="./images/<?=$fejlec['kepforras']?>" alt="<?=$fejlec['kepalt']?>" width = "60" height = "60">
+        <h1 id="fejlec"><?= $fejlec['cim'] ?></h1>
+        <nav id="nav">
+            <ul>
+                <?php foreach ($oldalak as $url => $oldal) { ?>
+                    <?php if(! isset($_SESSION['login']) && $oldal['menun'][0] || isset($_SESSION['login']) && $oldal['menun'][1]) { ?>
+                        <li<?= (($oldal == $keres) ? ' class="active"' : '') ?>>
+                            <a href="<?= ($url == '/') ? '.' : ('?oldal=' . $url) ?>">
+                                <?= $oldal['szoveg'] ?></a>
+                        </li>
+                    <?php } ?>
+                <?php } ?>
+                <label>
+                    <?php if(isset($_SESSION['login'])) { ?>Bejlentkezve: <strong><?= $_SESSION['csn']." ".$_SESSION['un']." (".$_SESSION['login'].")" ?></strong><?php } ?>
+                </label>
+            </ul>
+        </nav>
+
+
 	</header>
     <div id="wrapper">
-        <aside id="nav">
-            <nav>
-                <ul>
-					<?php foreach ($oldalak as $url => $oldal) { ?>
-						<?php if(! isset($_SESSION['login']) && $oldal['menun'][0] || isset($_SESSION['login']) && $oldal['menun'][1]) { ?>
-							<li<?= (($oldal == $keres) ? ' class="active"' : '') ?>>
-							<a href="<?= ($url == '/') ? '.' : ('?oldal=' . $url) ?>">
-							<?= $oldal['szoveg'] ?></a>
-							</li>
-						<?php } ?>
-					<?php } ?>
-                </ul>
-            </nav>
-        </aside>
         <div id="content">
             <?php include("./templates/pages/{$keres['fajl']}.tpl.php"); ?>
         </div>
     </div>
-    <footer>
-        <?php if(isset($lablec['copyright'])) { ?>&copy;&nbsp;<?= $lablec['copyright'] ?> <?php } ?>
-		&nbsp;
-        <?php if(isset($lablec['ceg'])) { ?><?= $lablec['ceg']; ?><?php } ?>
-    </footer>
 </body>
 </html>

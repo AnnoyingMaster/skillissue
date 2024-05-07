@@ -1,19 +1,14 @@
 <?php
 $ablakcim = array(
-    'cim' => 'Mini honlap Kft.',
+    'cim' => 'Skill Issue',
 );
 
 $fejlec = array(
     'kepforras' => 'logo.png',
     'kepalt' => 'logo',
-	'cim' => 'Mini honlap',
-	'motto' => ''
+	'cim' => 'Skill Issue - Tágítsd az elméd!'
 );
 
-$lablec = array(
-    'copyright' => 'Copyright '.date("Y").'.',
-    'ceg' => 'Mini honlap Kft.'
-);
 
 $oldalak = array(
 	'/' => array('fajl' => 'cimlap', 'szoveg' => 'Címlap', 'menun' => array(1,1)),
