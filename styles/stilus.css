@@ -71,10 +71,10 @@ div#content {
     padding: 15px;
 }
 
-div#content img{
+div#content .video{
     float: right;
-    width: 20em;
-    height: auto;
+    width: 420px;
+    height: 315px;
     margin: 0 0 15px 15px;
     padding: 3px;
 }
