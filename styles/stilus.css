@@ -78,3 +78,17 @@ div#content .video{
     margin: 0 0 15px 15px;
     padding: 3px;
 }
+
+div#galeria {
+    margin: 0px 0px;
+    width: 1020px;
+}
+div.kep {
+    display: inline-block;
+}
+div.kep img {
+    width: 200px;
+}
+#upload label {
+    display: block;
+}

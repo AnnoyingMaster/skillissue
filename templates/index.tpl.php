@@ -1,5 +1,6 @@
 <?php session_start(); ?>
 <?php if(file_exists('./logicals/'.$keres['fajl'].'.php')) { include("./logicals/{$keres['fajl']}.php"); } ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,8 +28,6 @@
                 </label>
             </ul>
         </nav>
-
-
 	</header>
     <div id="wrapper">
         <div id="content">
