@@ -95,3 +95,17 @@ div.kep img {
 #upload label {
     display: block;
 }
+input.tesztek {
+    display: none;
+}
+label#teszt {
+    display: block;
+    width: 200px;
+    background: #101a3b;
+    color: #ebebeb;
+    padding: 12px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
