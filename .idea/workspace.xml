@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50531b3b-79ba-48b4-84e2-a5b3f05fffb6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/includes/config.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyakorlat7.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logicals/belep.php" beforeDir="false" afterPath="$PROJECT_DIR$/logicals/belep.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logicals/regisztral.php" beforeDir="false" afterPath="$PROJECT_DIR$/logicals/regisztral.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/stilus.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/stilus.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/galeria.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/galeria.tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,7 @@
       <workItem from="1715276664164" duration="2404000" />
       <workItem from="1715365437380" duration="12000" />
       <workItem from="1715365467893" duration="6926000" />
+      <workItem from="1715429363708" duration="1774000" />
     </task>
     <servers />
   </component>

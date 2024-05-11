@@ -1,19 +1,10 @@
+
+/*Header elemek*/
 header {
     border-radius: 4px;
     background-color: #101a3b;
     padding: 10px;
     margin: 5px 75px 5px 75px;
-}
-#fejlec {
-    color: #ebebeb;
-}
-
-image {
-    vertical-align: center;
-}
-
-body{
-    background-color: #0a1024;
 }
 
 header img {
@@ -26,13 +17,8 @@ header label {
     float: right;
 }
 
-div#wrapper {
-    margin: 20px 75px 5px 75px;
-}
-
-aside {
-    display: table-cell;
-    vertical-align: top;
+#fejlec {
+    color: #ebebeb;
 }
 
 nav {
@@ -64,6 +50,21 @@ nav ul a {
     color: #ebebeb;
 }
 
+/*Body és content elemek*/
+
+body{
+    background-color: #0a1024;
+}
+
+div#wrapper {
+    margin: 20px 75px 5px 75px;
+}
+
+aside {
+    display: table-cell;
+    vertical-align: top;
+}
+
 div#content {
     color: #ebebeb;
     border-radius: 4px;
@@ -78,6 +79,8 @@ div#content .video{
     margin: 0 0 15px 15px;
     padding: 3px;
 }
+
+/*Galéria és felöltés elemek*/
 
 div#galeria {
     margin: 0px 0px;
