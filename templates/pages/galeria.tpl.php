@@ -2,9 +2,11 @@
     <h1>Mémek</h1>
     <p>Ha szereted a mémeket és szükséd van egy kis nevetésre akkor jó helyen jársz!</p>
     <p>Megtekintheted a felhasználóink által feltöltött képeinket, valamint, ha te is regisztrált látogatónk vagy felöltheted saját mémjeid, hogy mások is élvezhessék.</p>
+    <?php if(isset($_SESSION['login'])) { ?>
     <form action="<?= ($url == '/') ? '.' : ('?oldal=upload') ?>" method="post">
         <input type="submit" value="Feltöltés" />
     </form>
+    <?php } ?>
     <br><br>
     <?php
     arsort($kepek);

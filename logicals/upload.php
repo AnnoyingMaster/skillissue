@@ -18,7 +18,7 @@ if (isset($_POST['kuld'])) {
                 $uzenet[] = " Már létezik: " . $fajl['name'];
             else {
                 move_uploaded_file($fajl['tmp_name'], $vegsohely);
-                $uzenet[] = ' Ok: ' . $fajl['name'];
+                $uzenet[] = ' Sikeresen feltöltve: ' . $fajl['name'];
             }
         }
     }
