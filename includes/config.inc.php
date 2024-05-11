@@ -9,7 +9,6 @@ $fejlec = array(
 	'cim' => 'Skill Issue - Tágítsd az elméd!'
 );
 
-
 $oldalak = array(
 	'/' => array('fajl' => 'fooldal', 'szoveg' => 'Főoldal', 'menun' => array(1,1)),
 	'rolunk' => array('fajl' => 'rolunk', 'szoveg' => 'Rólunk', 'menun' => array(1,1)),
@@ -25,4 +24,10 @@ $oldalak = array(
 );
 
 $hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem található!');
+
+$images_mappa = './pictures/';
+
+$mediatipusok = array('image/jpeg', 'image/png');
+
+$maxmeret = 500*1024;
 ?>
