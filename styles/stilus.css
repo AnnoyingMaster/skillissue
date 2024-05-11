@@ -9,7 +9,7 @@ header {
 
 header img {
     float: left;
-    margin: 10px 10px 0px 10px;
+    margin: 10px 10px 0 10px;
 }
 
 header label {
@@ -23,7 +23,7 @@ header label {
 
 nav {
     margin: 5px 5px 15px 5px;
-    top: 0px;
+    top: 0;
     border-radius: 4px;
     background-color: #050a1c;
     box-shadow: 5px 5px;
@@ -31,8 +31,8 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 15px 15px 15px 0px;
+    margin: 0;
+    padding: 15px 15px 15px 0;
 }
 
 nav ul li {
@@ -83,7 +83,7 @@ div#content .video{
 /*Galéria és felöltés elemek*/
 
 div#galeria {
-    margin: 0px 0px;
+    margin: 0 0;
     width: 1020px;
 }
 div.kep {

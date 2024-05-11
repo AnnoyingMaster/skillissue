@@ -23,7 +23,7 @@ $oldalak = array(
     'tesztek' => array('fajl' => 'tesztek', 'szoveg' => 'Tesztek', 'menun' => array(0,1)),
     'galeria' => array('fajl' => 'galeria', 'szoveg' => 'Galéria', 'menun' => array(1,1)),
 	'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat', 'menun' => array(1,1)),
-    'msg_response' => array('fajl' => 'response', 'szoveg' => '', 'menun' => array(0,0)),
+    'msg_response' => array('fajl' => 'msg_response', 'szoveg' => '', 'menun' => array(0,0)),
     'uzenetek' => array('fajl' => 'uzenetek', 'szoveg' => 'Üzenetek', 'menun' => array(0,1)),
     'belepes' => array('fajl' => 'belepes', 'szoveg' => 'Belépés', 'menun' => array(1,0)),
     'kilepes' => array('fajl' => 'kilepes', 'szoveg' => 'Kilépés', 'menun' => array(0,1)),

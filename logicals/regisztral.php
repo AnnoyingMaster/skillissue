@@ -10,6 +10,7 @@ if(isset($_POST['felhasznalo']) && isset($_POST['jelszo']) && isset($_POST['veze
         $sqlSelect = "select id from felhasznalok where felhasznalo = :felhasznalo";
         $sth = $dbh->prepare($sqlSelect);
         $sth->execute(array(':felhasznalo' => $_POST['felhasznalo']));
+
         if($row = $sth->fetch(PDO::FETCH_ASSOC)) {
             $uzenet = "A felhasználói név már foglalt!";
             $ujra = "true";
@@ -35,7 +36,7 @@ if(isset($_POST['felhasznalo']) && isset($_POST['jelszo']) && isset($_POST['veze
     catch (PDOException $e) {
         $uzenet = "Hiba: ".$e->getMessage();
         $ujra = true;
-    }      
+    }
 }
 else {
     header("Location: .");
