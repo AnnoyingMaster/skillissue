@@ -14,7 +14,7 @@
 <body>
 	<header>
         <img src="./images/<?=$fejlec['kepforras']?>" alt="<?=$fejlec['kepalt']?>" width = "60" height = "60">
-        <h1 id="fejlec"><?= $fejlec['cim'] ?></h1>
+        <h1><a id="fejlec" href="./"><?= $fejlec['cim'] ?></h1></a>
         <nav id="nav">
             <ul>
                 <?php foreach ($oldalak as $url => $oldal) { ?>

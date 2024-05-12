@@ -6,11 +6,11 @@
 <p>(Az elküldött üzeneteket csak is <strong>bejelentkezett</strong> felhasználók láthatják!)</p><br><br>
 
 <legend>Üzenet küldés:</legend><br>
-<textarea rows="4" cols="50" name="comment" form="msgform">
+<textarea rows="4" cols="50" class="comment" name="comment" form="msgform">
 Üzenet...</textarea>
 
 <form action = "?oldal=msg_response" method = "POST" id="msgform">
-        <input type="submit" name="submit" value="Küldés">
+    <input type="submit" name="submit" value="Küldés">
         <br>&nbsp;
 </form>
 

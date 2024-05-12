@@ -1,4 +1,4 @@
-var pts = 0;
+let pts = 0;
 function checkTest(){
     if(document.getElementById('1').checked){
         pts += 3;

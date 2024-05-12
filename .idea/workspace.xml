@@ -6,14 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="50531b3b-79ba-48b4-84e2-a5b3f05fffb6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/config.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logicals/regisztral.php" beforeDir="false" afterPath="$PROJECT_DIR$/logicals/regisztral.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillissue.sql" beforeDir="false" afterPath="$PROJECT_DIR$/skillissue.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logicals/uzenetek.php" beforeDir="false" afterPath="$PROJECT_DIR$/logicals/uzenetek.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/checktest.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/checktest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/stilus.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/stilus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/tablazat.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/tablazat.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/fooldal.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/fooldal.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pages/kapcsolat.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/kapcsolat.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/msg_response.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/msg_response.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pages/uzenetek.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/uzenetek.tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,7 @@
       <workItem from="1715365437380" duration="12000" />
       <workItem from="1715365467893" duration="6926000" />
       <workItem from="1715429363708" duration="1774000" />
+      <workItem from="1715518786129" duration="6884000" />
     </task>
     <servers />
   </component>
