@@ -10,6 +10,6 @@
 <br>
 <a target="_blank" href="https://www.google.hu/maps/place/Pallasz+Ath%C3%A9n%C3%A9+Egyetem+GAMF+Kar/@46.8960799,19.6669509,17z/data=!3m1!4b1!4m5!3m4!1s0x4743da7a6c479e1d:0xc8292b3f6dc69e7f!8m2!3d46.8960763!4d19.6691396?hl=hu">Nagyobb térkép</a>
 <h3>Teszt források:</h3>
-<a href="https://www.microprof.hu/index.php?m=45">Matematika teszt</a>
-<br>
-<a href="https://angol.net/nyelvvizsga/bme/kozepfok/feleletvalasztos-teszt-1.shtml">Angol teszt</a>
+<a href="https://www.microprof.hu/index.php?m=45" target="_blank">Matematika teszt</a>
+<br><br>
+<a href="https://angol.net/nyelvvizsga/bme/kozepfok/feleletvalasztos-teszt-1.shtml" target="_blank">Angol teszt</a>
