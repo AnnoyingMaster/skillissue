@@ -17,7 +17,7 @@ header label {
     float: right;
 }
 
-#fejlec {
+#fejlec{
     color: #ebebeb;
 }
 
@@ -76,6 +76,20 @@ div#content .video{
     float: right;
     width: 420px;
     height: 315px;
+    margin: 0 0 15px 15px;
+    padding: 3px;
+}
+
+div#content .motivation{
+    width: 420px;
+    height: 315px;
+    margin: 0 0 15px 15px;
+    padding: 3px;
+}
+
+div#content .study{
+    width: 300px;
+    height: 250px;
     margin: 0 0 15px 15px;
     padding: 3px;
 }
